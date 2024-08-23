@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'testsqldbirfan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B4B27EABDF304B979CF782421E69B844 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC24950DBDDA41308A0946FFC3DA4D12 }}
