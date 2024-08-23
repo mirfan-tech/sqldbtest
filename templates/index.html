@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Table Data</title>
+</head>
+<body>
+    <h1>Test Table Data</h1>
+    <table border="1">
+        <tr>
+            <th>S.No</th>
+            <th>Text</th>
+        </tr>
+        {% for row in rows %}
+        <tr>
+            <td>{{ row.sno }}</td>
+            <td>{{ row.text }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
